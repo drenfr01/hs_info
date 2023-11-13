@@ -1,12 +1,8 @@
 import math
-
 # ignore all warnings
 import warnings
-import fire
-from utils import load_dataset
-from constants import ModelNames
-import yaml
 
+import fire
 import gensim
 import gensim.downloader
 import numpy as np
@@ -15,10 +11,13 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torchtext
+import yaml
 from torchtext.data import get_tokenizer
 
 from cbow import CBOW
+from constants import ModelNames
 from skip_gram import SkipGram
+from utils import load_dataset
 from vocab import Vocab
 
 warnings.filterwarnings("ignore")
