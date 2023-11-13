@@ -1,0 +1,4 @@
+Note: this is empty due to time constraints, but would have pinned versions of all files
+e.g. torch==
+
+Ideally would also build a fresh docker container as part of a CI/CD pipeline and utilize this
